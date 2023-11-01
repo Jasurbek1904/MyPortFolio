@@ -1,0 +1,600 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:ital,wght@1,500&family=Roboto:wght@500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* .navbar {
+    position: fixed;
+    display: flex;
+    opacity: 0.9;
+    top: 0;
+} */
+
+.mynavbar {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    color: white !important;
+}
+
+.navBrand {
+    font-size: 16px;
+    width: 15%;
+    color: white !important;
+}
+
+.navBrand:hover {
+    color: rgb(0, 39, 154) !important;
+}
+
+.mynav a {
+    font-size: 16px;
+    color: white;
+    margin: 10px;
+}
+
+.mynav a:hover {
+    color: blue;
+}
+
+.bi-instagram {
+    color: rgb(246, 0, 142);
+}
+
+.bi-telegram,
+.bi-facebook {
+    color: blue;
+}
+
+.topline {
+    display: block;
+    position: relative;
+    font-size: 25px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    margin-top: 80px;
+}
+
+.card-img {
+    opacity: 0.5;
+}
+
+h1 {
+    display: block;
+    font-size: 5em;
+    font-weight: 900;
+}
+
+.multiText {
+    font-size: 5rem;
+    font-weight: normal;
+    color: rgb(1, 253, 203);
+}
+
+
+.fotoDiv {
+    text-align: center;
+    width: 100%;
+}
+
+.myFoto {
+    border-radius: 50%;
+    width: 70%;
+}
+
+.navCont {
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.btnHire {
+    margin-top: 50px;
+    background: none;
+    border-radius: 50px;
+    border: 1px solid rgb(27, 166, 125);
+    color: rgb(27, 166, 125);
+    padding: 15px 30px;
+    font-size: 20px;
+    transition: 1s ease;
+}
+
+.btnHire:hover {
+    background: white;
+    color: rgb(27, 166, 125);
+}
+
+@media only screen and (max-width: 1200px) {
+    .mynav a {
+        font-size: 12px;
+        margin: 5px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .multiText {
+        font-size: 1.5em;
+    }
+
+    .topline {
+        font-size: 20px;
+    }
+
+    .btnHire {
+        padding: 10px 25px;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .multiText {
+        font-size: 1.2em;
+    }
+
+    .topline {
+        font-size: 18px;
+    }
+
+    .base {
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .topline {
+        margin-top: 30px;
+        font-size: 15px;
+    }
+
+    .multiText {
+        font-size: 1em;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .multiText {
+        font-size: 0.8em;
+    }
+
+    .topline {
+        font-size: 10px;
+    }
+
+    .btnHire {
+        margin-top: 10px;
+        font-size: 10px;
+        padding: 8px;
+    }
+
+}
+
+
+/* about */
+
+.textAbout {
+    color: rgb(238, 241, 241);
+    text-transform: uppercase;
+    font-size: 3em;
+    position: relative;
+}
+
+.textKnow {
+    position: relative;
+    top: -110px;
+    z-index: 50;
+}
+
+.hrKnow {
+    opacity: 1;
+    height: 3px !important;
+    color: #20c997;
+    margin: -1px auto;
+    width: 10%;
+    position: relative;
+    bottom: 100px;
+}
+
+@media only screen and (max-width: 465px) {
+    .hrKnow {
+        bottom: 70px;
+    }
+}
+
+.about .card {
+    border: none;
+}
+
+@media only screen and (max-width: 992px) {
+    .about .firstRow .col-sm-12 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .textKnow {
+        top: -100px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .textKnow {
+        top: -95px;
+    }
+}
+
+@media only screen and (max-width: 465px) {
+    .textKnow {
+        top: -140px;
+    }
+}
+
+
+.about .secondRow {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.about .secondRow h1 {
+    color: #6c757d;
+    position: relative;
+    top: 15px;
+}
+
+.about .secondRow p {
+    position: relative;
+    top: 15px;
+}
+
+.about .secondRow div {
+    padding: 10px;
+    width: 25%;
+    height: 25%;
+    border-radius: 50px;
+    border: 2px solid #20c997;
+}
+
+.about .secondRow div:hover {
+    background: #20c997;
+    color: white !important;
+    transition: 1s ease;
+}
+
+@media only screen and (max-width: 768px) {
+    .about .secondRow .col-md-3 {
+        width: 50%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .about .secondRow .col-md-3 {
+        width: 100%;
+    }
+}
+
+
+
+/* Services */
+
+.services .text-center {
+    position: relative;
+    top: 50px;
+}
+
+.services .card {
+    position: relative;
+    left: 80px;
+    border: none;
+    border-radius: 10px;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 100px;
+    width: 50%;
+}
+
+.services .bi {
+    color: rgb(32, 201, 151);
+}
+
+@media only screen and (max-width: 1200px) {
+    .services .bi {
+        width: 40px;
+        height: 40px;
+    }
+
+    .servRow h3 {
+        font-size: 25px;
+    }
+
+    .servRow p {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .servRow .col {
+        width: 50%;
+    }
+
+    .servRow h3 {
+        font-size: 18px;
+    }
+
+    .servRow p {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 465px) {
+    .textserv {
+        font-size: 2em;
+    }
+
+    .servKnow {
+        font-size: 20px;
+        top: -60px;
+    }
+}
+
+/* resume */
+
+.resume .card {
+    border-radius: 10px;
+}
+
+
+
+
+
+/* client */
+.client .clientCard {
+    position: relative;
+    top: -30px;
+}
+
+.client .img-fluid {
+    width: 15%;
+    margin: 10px;
+    padding: 5px
+}
+
+.client .textSpan {
+    position: relative;
+    top: 35px;
+    left: -21%;
+    color: grey;
+}
+
+.client .textSpan2 {
+    left: -13%;
+}
+
+.bi-star-fill {
+    color: rgb(255, 196, 21);
+}
+
+@media only screen and (max-width: 1400px) {
+    .client .textSpan {
+        left: -24%;
+    }
+
+    .client .textSpan2 {
+        left: -15%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .client .textName {
+        position: relative;
+        top: 10px;
+        font-size: 15px;
+    }
+
+    .client .textSpan {
+        left: -27%;
+        font-size: 12px;
+    }
+
+    .client .textSpan2 {
+        left: -17%;
+    }
+
+    .client .pText {
+        font-size: 12px;
+    }
+
+    .bi-star-fill {
+        width: 14px;
+        height: 14px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .client .textSpan {
+        left: -36%;
+    }
+
+    .client .textSpan2 {
+        left: -23%;
+    }
+
+    .client .card {
+        height: 250px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .client .card {
+        margin-bottom: 20px;
+    }
+
+    .client .textSpan {
+        left: -23.5%;
+    }
+
+    .client .textSpan2 {
+        left: -15%;
+    }
+
+    .testimonial {
+        position: relative;
+        top: -20px;
+        font-size: 80px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .testimonial {
+        position: relative;
+        top: -40px;
+        font-size: 40px !important;
+    }
+
+    .clientKnow {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 465px) {
+    .testimonial {
+        position: relative;
+        top: -10px;
+    }
+}
+
+/* contact */
+
+
+.contact .bi {
+    color: #20c997;
+}
+
+ul.portfolio__type {
+    margin: auto;
+    max-width: 50%;
+    height: auto;
+    list-style: none;
+    list-style-type: none;
+    color: var(--mainText__color);
+    font-size: 16px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li.item--active a {
+    color: var(--hoverButton__color);
+    border-bottom: 1px solid var(--hoverButton__color);
+}
+
+.type__item a {
+    text-decoration: none;
+    padding: 9.6px 16px;
+    color: var(--secondNav__color);
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.type__item a:hover {
+    color: var(--hoverButton__color);
+}
+
+.portfolio__gallery {
+    max-width: 1000px;
+    margin: auto;
+    line-height: 0;
+    column-count: 3;
+    column-gap: 10px;
+    margin-top: 40px;
+}
+
+.photo__item {
+    margin-bottom: 10px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    border-radius: 4px;
+}
+
+.gallery__photo {
+    width: 100%;
+    height: 100%;
+    transition: 0.5s ease;
+}
+
+.photo__item:hover .gallery__photo {
+    transform: scale(1.1);
+    filter: blur(2px);
+}
+
+.photo__item:hover>.project__desc {
+    display: block;
+}
+
+.project__desc {
+    background-color: rgba(0, 0, 0, 0.55);
+    transition: 0.5s ease;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: none;
+    /* padding:20px; */
+}
+
+.desc__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--white__color);
+    width: 100%;
+    height: 100%;
+}
+
+.desc__container>h3 {
+    line-height: 3;
+}
+
+.project__desc>div {
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -58%);
+}
+
+.photo__item:hover .project__desc {
+    opacity: 1;
+}
+
+.arrowIcon {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: 40px;
+    height: 40px;
+    color: rgb(236, 222, 227);
+    background: grey;
+    border-radius: 50%;
+    border: 3px solid rebeccapurple !important;
+    z-index: 1;
+}
+
+@media only screen and (max-width: 720px) {
+    .arrowIcon{
+        width: 30px;
+        height: 30px;
+    }
+}
